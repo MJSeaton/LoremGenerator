@@ -25,3 +25,5 @@ Route::post('users', function($UserInput=null){
    
     return View::make('users', array($_POST));
 });
+
+//Route::post('users', 'DataGenController@Generate_Text');
