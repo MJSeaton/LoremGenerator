@@ -15,3 +15,13 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('users', function($UserInput=null)
+{
+    
+    return View::make('users');
+});
+Route::post('users', function($UserInput=null){
+   
+    return View::make('users', array($_POST));
+});

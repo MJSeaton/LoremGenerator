@@ -71,3 +71,6 @@ require $framework.'/Illuminate/Foundation/start.php';
 */
 
 return $app;
+
+/////////////
+///////////
